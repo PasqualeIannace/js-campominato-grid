@@ -7,3 +7,17 @@
 body {
     font-family: sans-serif;
 }
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    height: 800px;
+    width: 800px;
+}
+
+.square {
+    border: 1px solid;
+    height: calc(100% / 10);
+    width: calc(100% / 10);
+}
