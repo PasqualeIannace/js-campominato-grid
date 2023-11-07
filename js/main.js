@@ -2,6 +2,8 @@ let grid = document.getElementById("grid");
 
 function play() {
     console.log("Hai cliccato")
+    // RESET GRIGLIA
+    grid.innerHTML = "";
     celleGenerator();
 }
 
@@ -21,6 +23,7 @@ function celleGenerator(difficult) {
         // CLICK CELLA
         cella.addEventListener("click", function() {
             console.log("Cella: ", i);
+            cella.classList.toggle("cellaClick");
         })
     }
     

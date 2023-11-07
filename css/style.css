@@ -10,9 +10,21 @@ body {
 }
 
 header {
-    background: #e1e111;
     margin-bottom: 3em;
-    padding-top: 1em;
+    border: 5px outset;
+    color: #f3f30b;
+    background: #BDBDBD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    margin: 1em;
+    border: 4px solid;
+    padding: 1em;
+    border-color: #7B7B7B white white #7B7B7B;
+    background: #BDBDBD;
 }
 
 #grid {
@@ -21,9 +33,18 @@ header {
     margin: 0 auto;
     height: 800px;
     width: 800px;
-    border: 3px outset white;
-    padding: 1.5em;
-    background-color: #888888;
+    border: 6px solid;
+    border-color: #7B7B7B white white #7B7B7B;
+}
+
+.border {
+    border: 4px outset white;
+    height: 840px;
+    width: 805px;
+    margin: 0 auto;
+    padding: 1em;
+    display: flex;
+    background: #BDBDBD;
 }
 
 .square {
@@ -33,5 +54,11 @@ header {
     text-align: center;
     padding-top: 1em;
     font-size: 1.5em;
+    font-weight: 600;
     background-color: #BDBDBD;
+}
+
+.cellaClick {
+    border: 2px solid gray;
+    color: white;
 }
